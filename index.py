@@ -1,1 +1,1 @@
-import muggle_ocr
+import ddddocr
