@@ -19,7 +19,7 @@ jobs:
         with:
           python-version: ${{ matrix.python-version }}
       - name: 'install dependencies'
-        run: python -m pip install --upgrade ddddocr
+        run: python -m pip install --upgrade onnxruntime
       - name: 'start'
 
         run: python index.py
